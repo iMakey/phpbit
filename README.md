@@ -20,8 +20,20 @@ Structure
      * **phpbit\Stratum\Client**
        A Stratum client.
    
-Requirements
-------------
+Features
+--------
 * Installable using Composer.
 * Follow PSR standards that applies.
 * Encrypted SQLite database backend.
+
+Requirements/links
+------------------
+* https://github.com/scintill/danter-php-ecc
+* https://gist.github.com/3549107
+* http://bitfreak.info/?page=tools&t=bitsci (validate key generation method)
+* https://github.com/mikegogulski/bitcoin-php
+
+License
+-------
+phpbit will hopefully be released under the MIT license.
+
