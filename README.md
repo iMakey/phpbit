@@ -3,8 +3,8 @@ phpbit
 
  **phpbit will be a light PHP Bitcoin wallet using the Stratum protocol**
  
- Structure
- ---------
+Structure
+---------
  
  phpbit will be build using a number of classes, that can be used seperately or
  combined to a Bitcoin wallet.
@@ -20,3 +20,8 @@ phpbit
      * **phpbit\Stratum\Client**
        A Stratum client.
    
+Requirements
+------------
+* Installable using Composer.
+* Follow PSR standards that applies.
+* Encrypted SQLite database backend.
