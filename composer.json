@@ -1,0 +1,22 @@
+{
+    "name": "xqus/phpbit",
+    "description" : "PHP Bitcoing library using Stratum protocol",
+    "keywords" : [ "PHP", "Bitcoin", "Stratum" ],
+    "homepage" : "https://github.com/xqus/stratum",
+    "license" : "MIT",
+    "require" : {
+        "php" : ">=5.3.1"
+    },
+    "authors" : [
+        {
+            "name" : "Audun Larsen",
+            "email" : "larsen@xqus.com",
+            "role" : "Developer"
+        }
+    ],
+    "autoload" : {
+        "psr-0" : {
+            "phpbit" : "lib/"
+        }
+    }
+}
