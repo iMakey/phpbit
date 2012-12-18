@@ -32,6 +32,7 @@ Requirements/links
 * https://gist.github.com/3549107
 * http://bitfreak.info/?page=tools&t=bitsci (validate key generation method)
 * https://github.com/mikegogulski/bitcoin-php
+* https://bitcointalk.org/index.php?topic=117992.0
 
 License
 -------
