@@ -2,6 +2,7 @@
 
 namespace phpbit;
 use phpecc;
+use phpSec\Crypt\Rand;
 
 class Bitcoin {
 
@@ -18,10 +19,7 @@ class Bitcoin {
         '32670510020758816978083085130507043184471273380659243275938904335757337482424',
         '115792089237316195423570985008687907852837564279074904382605163141518161494337');
 
-    $privBin = '';
-    for ($i = 0; $i < 32; $i++) {
-      $privBin .= chr(mt_rand(0, 255));
-    }
+    $privBin = Rand::bytes(32);
 
     $point = phpecc\Point::mul(phpecc\Utilities\Bcmath::bin2bc("\x00" . $privBin), $secp256k1_G);
 
