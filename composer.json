@@ -6,7 +6,8 @@
     "license" : "MIT",
     "require" : {
         "php" : ">=5.3.1",
-        "xqus/phpecc": "dev-master" 
+        "xqus/phpecc": "dev-master",
+        "phpsec/phpsec": "0.5.1"
     },
     "authors" : [
         {
